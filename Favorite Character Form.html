@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Favorite Game</title>
+
+</head>
+
+<body>
+
+    <hr>
+
+    <div class="navigation">
+        <a href="Main page.html" class="button">Main page</a>
+        <a href="Favorite Character Form.html" class="button">Who's your favorite</a>
+        <a href="Links to Tales Of Resources.html" class="button">Links to Tales of Resources</a>
+        <a href="Cool Tales of Chads.html" class="button">Cool Tales Dudes</a>
+    </div>
+
+    <hr>
+
+    <div class="main">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add user</legend>
+                <div class="first">
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="second">
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div class="third">
+                    <div class="third1">
+                        <label for="game">Your favorite Tales Game:</label>
+                        <select id="game" name="game_title">
+                            <option value="Symphonia">Symphonia</option>
+                            <option value="Abyss">Abyss</option>
+                            <option value="Graces">Graces</option>
+                            <option value="Vesperia">Vesperia</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="fourth">
+                    <label for="Reason">Reason for why it's your favorite:</label>
+                    <textarea id="Reason" name="reason"></textarea>
+                </div>
+
+                <div class="fifth">
+                    <div class="eighth1">
+                        <input type="checkbox" id="arise" name="arise" value="Arise">
+                        <label for="arise">Check if you hate Tales of Arise</label><br>
+                    </div>
+                </div>
+
+                <div class="sixth">
+                    <button type="submit" id="checkbox">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
